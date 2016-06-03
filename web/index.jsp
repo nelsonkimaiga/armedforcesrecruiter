@@ -15,35 +15,38 @@
         <link rel="stylesheet" href="css/foundation.css" type="text/css">
         <link rel="stylesheet" href="css/app.css" type="text/css">
         <!--foundation icons-->
-        <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel="stylesheet" type="text/css">
+        <link href="css/foundation-icons.css" rel="stylesheet" type="text/css">
         <!--fonts-->
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div class="top-bar">
-            <div class="top-bar-left">
-                <ul class="dropdown menu" data-dropdown-menu>
-                    <li class="menu-text">Site Title</li>
-                    <li>
-                        <a href="#">One</a>
-                        <ul class="menu vertical">
-                            <li><a href="#">One</a></li>
-                            <li><a href="#">Two</a></li>
-                            <li><a href="#">Three</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                </ul>
-            </div>
-            <div class="top-bar-right">
-                <ul class="menu">
-                    <li><input type="search" placeholder="Search"></li>
-                    <li><button type="button" class="button">Search</button></li>
-                </ul>
-            </div>
-        </div>
         <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/foundation.js"></script>
-    </body>
+    </head>
+        <body>
+            <nav class="nav ">
+                <div class="nav-center">
+                    <a class="toggle-nav" href="#">&#9776;</a>
+                    <div class="nav-mobile">
+                        <ul class="left">
+                            <li class="menu-text">Army Recruiter</li>
+                            <li><a href="#"><i class="fi-social-github"></i></a></li>
+                            <li><a href="#"><i class="fa fa-book"></i></a></li>
+                            <li><a href="#"><i class="fa fa-fire"></i></a></li>
+                        </ul>
+                        <ul class="right">
+                            <li>
+                                <a href="#"><i class="fa fa-user"></i> About</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope"></i> Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="center"></div>
+            
+            
+            <script src="js/what-input.js"></script>
+            <script src="js/foundation.min.js"></script>
+            <script src="js/app.js"></script>
+        </body>
 </html>
